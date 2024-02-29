@@ -2,6 +2,33 @@
 @tailwind components;
 @tailwind utilities;
 
+@layer base{
+  @font-face {
+    font-family: 'Oswald-reg';
+    src: url('/fonts/static/Oswald-Regular.ttf');
+  }
+
+  @font-face {
+    font-family: 'Nunito';
+    src: url(/fonts/Nunito-Regular.ttf);
+  }
+
+  @font-face {
+    font-family: 'Techmono';
+    src: url(/fonts/ShareTechMono-Regular.ttf);
+  }
+  
+  @font-face {
+    font-family: 'Kaushan';
+    src: url('/fonts/KaushanScript-Regular.ttf');
+  }
+
+  @font-face {
+    font-family: 'Changa';
+    src: url(/fonts/Changa-VariableFont_wght.ttf);
+  }
+}
+
 :root {
   --foreground-rgb: 0, 0, 0;
   --background-start-rgb: 214, 219, 220;
@@ -25,3 +52,5 @@ body {
     )
     rgb(var(--background-start-rgb));
 }
+
+
