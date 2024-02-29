@@ -5,7 +5,7 @@ export function Modal({ children, onClose }: { children: React.ReactNode; onClos
   return (
     <>
       <div className="fixed inset-0 flex items-center justify-center bg-black bg-opacity-50">
-        <div className="bg-white p-8 rounded-md relative">
+        <div className="bg-white p-8 rounded-md relative overflow-hidden">
           <button
             className="absolute top-2 right-2 text-black text-sm"
             onClick={onClose}

@@ -1,5 +1,4 @@
 "use client"
-
 import React from 'react';
 
 const JoinUsSection: React.FC = () => {
@@ -10,10 +9,9 @@ const JoinUsSection: React.FC = () => {
   return (
     <section className="bg-black">
       <div className="max-w-lg bg-black px-4 pt-24 py-8 mx-auto text-left md:max-w-none md:text-center">
-        <h1 className="text-3xl font-extrabold leading-10 tracking-tight text-left text-white text-center sm:leading-none md:text-6xl text-4xl lg:text-7xl">
-          <span className="inline md:block">No dudes</span>
-          <span className="mt-2 bg-clip-text text-transparent bg-gradient-to-r from-purple-400 via-emerald-400 to-green-500 md:inline-block">
-            Espero tu
+        <h1 className="font-extrabold leading-10 tracking-tight text-white text-center sm:leading-none md:text-6xl text-4xl lg:text-7xl">
+          <span className="inline md:block line-normal lg:line-0">No dudes <br /></span>
+          <span className="mt-2 bg-clip-text text-transparent bg-gradient-to-r from-purple-400 via-emerald-400 to-green-500 md:inline-block"> Espero tu
             <span className="bg-clip-text text-transparent bg-gradient-to-r from-teal-500 via-cyon-400 to-purple-300"> Mensaje</span>
           </span>
         </h1>

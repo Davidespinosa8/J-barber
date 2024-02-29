@@ -40,7 +40,7 @@ export default function ImagesSliderDemo() {
           }}
           className="z-50 flex flex-col justify-center items-center"
         >
-          <motion.p className="font-bold text-3xl md:text-6xl text-center bg-clip-text text-transparent bg-gradient-radial from-cyan-500 to-blue-100 py-4 font-Oswald">
+          <motion.p className="font-bold text-4xl md:text-6xl text-center bg-clip-text text-transparent bg-gradient-radial from-cyan-500 to-blue-100 py-4 font-Oswald">
             Barberia con Estilo
           </motion.p>
           <button
@@ -56,7 +56,7 @@ export default function ImagesSliderDemo() {
       {showModal && (
         <Modal onClose={closeModal}>
           {/* Código del calendario de Calendly */}
-          <div className="calendly-inline-widget" data-url="https://calendly.com/ddavidespinosa8/j-barber" style={{ minWidth: '400px', maxWidth: '30vw', height: '600px', maxHeight: '50vh' }} />
+          <div className="calendly-inline-widget" data-url="https://calendly.com/ddavidespinosa8/j-barber" style={{ minWidth: '400px', maxWidth: '30vw', height: '600px', maxHeight: '60vh' }} />
           <script type="text/javascript" src="https://assets.calendly.com/assets/external/widget.js" async></script>
         </Modal>
       )}
