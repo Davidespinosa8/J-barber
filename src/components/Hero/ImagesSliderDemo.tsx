@@ -56,7 +56,7 @@ export default function ImagesSliderDemo() {
       {showModal && (
         <Modal onClose={closeModal}>
           {/* Código del calendario de Calendly */}
-          <div className="calendly-inline-widget" data-url="https://calendly.com/ddavidespinosa8/j-barber" style={{ minWidth: '300px', maxWidth: '30vw', height: '600px', maxHeight: '60vh' }} />
+          <div className="calendly-inline-widget" data-url="https://calendly.com/j-barber/j-barber?month=2024-03" style={{ minWidth: '300px', maxWidth: '30vw', height: '600px', maxHeight: '60vh' }} />
           <script type="text/javascript" src="https://assets.calendly.com/assets/external/widget.js" async></script>
         </Modal>
       )}
