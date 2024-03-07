@@ -9,7 +9,7 @@ export function Header(){
       <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
         <a href="#" className="flex items-center space-x-3 rtl:space-x-reverse">
           <Image src="/assestment/shawer.png" width="25" height="10"  alt="Shawer" />
-          <span className="self-center text-3xl font-normal whitespace-nowrap dark:text-white font-Kaushan">J·Barber</span>
+          <span className="self-center text-3xl font-normal whitespace-nowrap dark:text-white font-Kaushan transition duration-400 ease-in-out hover:text-emerald-400">J·Barber</span>
         </a>
         <div className="flex items-right lg:order-2">
           <div className="flex item-center justify-between">
